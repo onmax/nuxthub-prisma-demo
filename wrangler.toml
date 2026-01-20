@@ -1,0 +1,10 @@
+name = "onmax-nuxthub-prisma-demo"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nuxthub-prisma-demo-db"
+database_id = "030f18a9-1a80-4fb3-95f9-fdb47bc42e76"
+migrations_dir = "db/migrations/sqlite"
+migrations_table = "_hub_migrations"
