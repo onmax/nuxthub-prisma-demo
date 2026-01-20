@@ -12,8 +12,8 @@ importers:
         specifier: ^0.17.0
         version: 0.17.0
       '@nuxthub/core':
-        specifier: ^0.10.4
-        version: 0.10.4(db0@0.3.4(@electric-sql/pglite@0.3.2)(@libsql/client@0.17.0)(mysql2@3.15.3))(ioredis@5.9.2)(magicast@0.5.1)(typescript@5.9.3)
+        specifier: file:/tmp/nuxthub-core-0.10.4.tgz
+        version: file:../../../../tmp/nuxthub-core-0.10.4.tgz(db0@0.3.4(@electric-sql/pglite@0.3.2)(@libsql/client@0.17.0)(mysql2@3.15.3))(ioredis@5.9.2)(magicast@0.5.1)(typescript@5.9.3)
       '@prisma/adapter-d1':
         specifier: ^7.2.0
         version: 7.2.0
@@ -621,8 +621,9 @@ packages:
       rolldown:
         optional: true
 
-  '@nuxthub/core@0.10.4':
-    resolution: {integrity: sha512-X/tu4r12KTNimDFK9FICKPqVhX+EFkJ8uOuUq6BkGP8kxIQiahDWQQ6H9zJcTdcks4JeuN0UQP+hVwszrfFOaA==}
+  '@nuxthub/core@file:../../../../tmp/nuxthub-core-0.10.4.tgz':
+    resolution: {integrity: sha512-d+ab8VPTHZRH7vpF7F+kiVjaPbBtX7+8nmc3f0mqZELyXwANaGVu7p/yyNgy/z3k3BnIPCcDvvEvJyWJ/mrDfg==, tarball: file:../../../../tmp/nuxthub-core-0.10.4.tgz}
+    version: 0.10.4
     hasBin: true
 
   '@oxc-minify/binding-android-arm64@0.102.0':
@@ -4726,7 +4727,7 @@ snapshots:
       - vue-tsc
       - yaml
 
-  '@nuxthub/core@0.10.4(db0@0.3.4(@electric-sql/pglite@0.3.2)(@libsql/client@0.17.0)(mysql2@3.15.3))(ioredis@5.9.2)(magicast@0.5.1)(typescript@5.9.3)':
+  '@nuxthub/core@file:../../../../tmp/nuxthub-core-0.10.4.tgz(db0@0.3.4(@electric-sql/pglite@0.3.2)(@libsql/client@0.17.0)(mysql2@3.15.3))(ioredis@5.9.2)(magicast@0.5.1)(typescript@5.9.3)':
     dependencies:
       '@cloudflare/workers-types': 4.20260120.0
       '@nuxt/kit': 4.2.2(magicast@0.5.1)
