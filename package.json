@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@libsql/client": "^0.17.0",
-    "@nuxthub/core": "file:/tmp/nuxthub-core-0.10.4.tgz",
+    "@nuxthub/core": "file:nuxthub-core-0.10.4.tgz",
     "@prisma/adapter-d1": "^7.2.0",
     "@prisma/adapter-libsql": "^7.2.0",
     "@prisma/client": "^7.2.0",
