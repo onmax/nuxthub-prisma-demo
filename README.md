@@ -1,5 +1,7 @@
 # NuxtHub Prisma Demo
 
+[![docs](https://comark-ui.onmax.me/badge.svg?label=docs&value=nuxthub-prisma-demo)](https://github.com/onmax/nuxthub-prisma-demo#setup)
+
 Demo showcasing NuxtHub database with Prisma ORM.
 
 ## Setup
